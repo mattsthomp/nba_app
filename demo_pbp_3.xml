@@ -6,7 +6,7 @@
 <event eventid="268" prd="3" game_clock="11:45" htms="47" vtms="59" msg_type="2" action_type="46" player_code="wesley_matthews" tm="blazers">
 <![CDATA[ (11:45)[POR] Matthews Running Jump Shot: Missed ]]>
 </event>
-<event eventid="269" prd="3" game_clock="11:43" htms="47" vtms="59" msg_type="4" action_type="0" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="269" prd="3" game_clock="11:43" htms="47" vtms="59" msg_type="4" action_type="0" player_code="russell_westbrook" tm="thunder">
 <![CDATA[ (11:43)[OKC] Westbrook Rebound (Off:2 Def:6) ]]>
 </event>
 <event eventid="270" prd="3" game_clock="11:30" htms="47" vtms="59" msg_type="5" action_type="1" player_code="nick_collison" tm="thunder">
@@ -25,7 +25,7 @@
 <event eventid="273" prd="3" game_clock="11:03" htms="50" vtms="59" msg_type="4" action_type="0" player_code="lamarcus_aldridge" tm="blazers">
 <![CDATA[ (11:03)[POR] Aldridge Rebound (Off:3 Def:6) ]]>
 </event>
-<event eventid="274" prd="3" game_clock="10:52" htms="50" vtms="59" msg_type="6" action_type="27" player_code="andre_roberson andre_roberson" tm="thunder">
+<event eventid="274" prd="3" game_clock="10:52" htms="50" vtms="59" msg_type="6" action_type="27" player_code="andre_roberson" tm="thunder">
 <![CDATA[ (10:52)[OKC] Roberson Foul: Personal Block (1 PF) ]]>
 </event>
 <event eventid="275" prd="3" game_clock="10:45" htms="50" vtms="59" msg_type="6" action_type="29" player_code="nick_collison" tm="thunder">
@@ -48,7 +48,7 @@
 (10:45)[POR 52-59] Aldridge Free Throw 2 of 2 (16 PTS)
 ]]>
 </event>
-<event eventid="281" prd="3" game_clock="10:36" htms="52" vtms="59" msg_type="2" action_type="5" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="281" prd="3" game_clock="10:36" htms="52" vtms="59" msg_type="2" action_type="5" player_code="russell_westbrook" tm="thunder">
 <![CDATA[ (10:36)[OKC] Westbrook Layup Shot: Missed ]]>
 </event>
 <event eventid="282" prd="3" game_clock="10:35" htms="52" vtms="59" msg_type="4" action_type="0" player_code="nicolas_batum" tm="blazers">
@@ -62,7 +62,7 @@
 <event eventid="284" prd="3" game_clock="10:25" htms="54" vtms="59" msg_type="9" action_type="1" player_code="" tm="thunder">
 <![CDATA[ (10:25)[OKC] Team Timeout : Regular ]]>
 </event>
-<event eventid="286" prd="3" game_clock="10:14" htms="54" vtms="61" msg_type="1" action_type="1" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="286" prd="3" game_clock="10:14" htms="54" vtms="61" msg_type="1" action_type="1" player_code="russell_westbrook" tm="thunder">
 <![CDATA[
 (10:14)[OKC 61-54] Westbrook Jump Shot: Made (21 PTS)
 ]]>
@@ -111,7 +111,7 @@
 <event eventid="300" prd="3" game_clock="08:33" htms="54" vtms="67" msg_type="2" action_type="1" player_code="damian_lillard" tm="blazers">
 <![CDATA[ (08:33)[POR] Lillard 3pt Shot: Missed ]]>
 </event>
-<event eventid="301" prd="3" game_clock="08:32" htms="54" vtms="67" msg_type="4" action_type="0" player_code="andre_roberson andre_roberson" tm="thunder">
+<event eventid="301" prd="3" game_clock="08:32" htms="54" vtms="67" msg_type="4" action_type="0" player_code="andre_roberson" tm="thunder">
 <![CDATA[ (08:32)[OKC] Roberson Rebound (Off:0 Def:4) ]]>
 </event>
 <event eventid="302" prd="3" game_clock="08:17" htms="54" vtms="69" msg_type="1" action_type="49" player_code="serge_ibaka" tm="thunder">
@@ -124,7 +124,7 @@
 (08:01)[POR 56-69] Lopez Jump Shot: Made (8 PTS) Assist: Batum (3 AST)
 ]]>
 </event>
-<event eventid="304" prd="3" game_clock="07:40" htms="56" vtms="69" msg_type="2" action_type="1" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="304" prd="3" game_clock="07:40" htms="56" vtms="69" msg_type="2" action_type="1" player_code="russell_westbrook" tm="thunder">
 <![CDATA[ (07:40)[OKC] Westbrook Jump Shot: Missed ]]>
 </event>
 <event eventid="305" prd="3" game_clock="07:39" htms="56" vtms="69" msg_type="4" action_type="0" player_code="nicolas_batum" tm="blazers">
@@ -135,7 +135,7 @@
 (07:25)[POR] Lopez Turnover : Poss Lost Ball Turnover (1 TO) Steal:Singler (1 ST)
 ]]>
 </event>
-<event eventid="308" prd="3" game_clock="07:18" htms="56" vtms="69" msg_type="5" action_type="2" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="308" prd="3" game_clock="07:18" htms="56" vtms="69" msg_type="5" action_type="2" player_code="russell_westbrook" tm="thunder">
 <![CDATA[
 (07:18)[OKC] Westbrook Turnover : Lost Ball (5 TO) Steal:Lillard (1 ST)
 ]]>
@@ -145,18 +145,18 @@
 (07:14)[POR 58-69] Lillard Driving Layup Shot: Made (19 PTS)
 ]]>
 </event>
-<event eventid="310" prd="3" game_clock="07:01" htms="58" vtms="69" msg_type="5" action_type="2" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="310" prd="3" game_clock="07:01" htms="58" vtms="69" msg_type="5" action_type="2" player_code="russell_westbrook" tm="thunder">
 <![CDATA[
 (07:01)[OKC] Westbrook Turnover : Lost Ball (6 TO) Steal:Matthews (3 ST)
 ]]>
 </event>
-<event eventid="311" prd="3" game_clock="06:58" htms="58" vtms="69" msg_type="7" action_type="5" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="311" prd="3" game_clock="06:58" htms="58" vtms="69" msg_type="7" action_type="5" player_code="russell_westbrook" tm="thunder">
 <![CDATA[ (06:58)[OKC] Westbrook Violation:Kicked Ball ]]>
 </event>
 <event eventid="312" prd="3" game_clock="06:50" htms="61" vtms="69" msg_type="1" action_type="1" player_code="damian_lillard" tm="blazers">
 <![CDATA[ (06:50)[POR 61-69] Lillard 3pt Shot: Made (22 PTS) ]]>
 </event>
-<event eventid="313" prd="3" game_clock="06:31" htms="61" vtms="69" msg_type="2" action_type="80" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="313" prd="3" game_clock="06:31" htms="61" vtms="69" msg_type="2" action_type="80" player_code="russell_westbrook" tm="thunder">
 <![CDATA[ (06:31)[OKC] Westbrook Step Back Jump shot: Missed ]]>
 </event>
 <event eventid="314" prd="3" game_clock="06:30" htms="61" vtms="69" msg_type="4" action_type="0" player_code="lamarcus_aldridge" tm="blazers">
@@ -170,12 +170,12 @@
 <event eventid="316" prd="3" game_clock="06:11" htms="64" vtms="69" msg_type="9" action_type="2" player_code="" tm="thunder">
 <![CDATA[ (06:11)[OKC] Team Timeout : Short ]]>
 </event>
-<event eventid="318" prd="3" game_clock="06:11" htms="64" vtms="69" msg_type="8" action_type="0" player_code="andre_roberson andre_roberson" tm="thunder">
+<event eventid="318" prd="3" game_clock="06:11" htms="64" vtms="69" msg_type="8" action_type="0" player_code="andre_roberson" tm="thunder">
 <![CDATA[
 (06:11)[OKC] Roberson Substitution replaced by Waiters
 ]]>
 </event>
-<event eventid="319" prd="3" game_clock="05:54" htms="64" vtms="69" msg_type="2" action_type="5" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="319" prd="3" game_clock="05:54" htms="64" vtms="69" msg_type="2" action_type="5" player_code="russell_westbrook" tm="thunder">
 <![CDATA[ (05:54)[OKC] Westbrook Layup Shot: Missed ]]>
 </event>
 <event eventid="320" prd="3" game_clock="05:53" htms="64" vtms="69" msg_type="4" action_type="0" player_code="damian_lillard" tm="blazers">
@@ -235,10 +235,10 @@
 <event eventid="336" prd="3" game_clock="04:15" htms="67" vtms="73" msg_type="2" action_type="1" player_code="lamarcus_aldridge" tm="blazers">
 <![CDATA[ (04:15)[POR] Aldridge Jump Shot: Missed ]]>
 </event>
-<event eventid="337" prd="3" game_clock="04:14" htms="67" vtms="73" msg_type="4" action_type="0" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="337" prd="3" game_clock="04:14" htms="67" vtms="73" msg_type="4" action_type="0" player_code="russell_westbrook" tm="thunder">
 <![CDATA[ (04:14)[OKC] Westbrook Rebound (Off:2 Def:7) ]]>
 </event>
-<event eventid="338" prd="3" game_clock="04:11" htms="67" vtms="75" msg_type="1" action_type="42" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="338" prd="3" game_clock="04:11" htms="67" vtms="75" msg_type="1" action_type="42" player_code="russell_westbrook" tm="thunder">
 <![CDATA[
 (04:11)[OKC 75-67] Westbrook Driving Layup Shot: Made (23 PTS)
 ]]>
@@ -275,13 +275,13 @@
 <event eventid="345" prd="3" game_clock="02:36" htms="71" vtms="79" msg_type="6" action_type="11" player_code="" tm="blazers">
 <![CDATA[ (02:36)[POR] Stotts Technical ]]>
 </event>
-<event eventid="347" prd="3" game_clock="02:36" htms="71" vtms="79" msg_type="3" action_type="16" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="347" prd="3" game_clock="02:36" htms="71" vtms="79" msg_type="3" action_type="16" player_code="russell_westbrook" tm="thunder">
 <![CDATA[ (02:36)[OKC] Westbrook Free Throw Technical Missed ]]>
 </event>
 <event eventid="348" prd="3" game_clock="02:36" htms="71" vtms="79" msg_type="4" action_type="1" player_code="" tm="thunder">
 <![CDATA[ (02:36)[OKC] Team Rebound ]]>
 </event>
-<event eventid="350" prd="3" game_clock="02:36" htms="71" vtms="80" msg_type="3" action_type="11" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="350" prd="3" game_clock="02:36" htms="71" vtms="80" msg_type="3" action_type="11" player_code="russell_westbrook" tm="thunder">
 <![CDATA[
 (02:36)[OKC 80-71] Westbrook Free Throw 1 of 2 (24 PTS)
 ]]>
@@ -294,7 +294,7 @@
 (02:36)[POR] Lillard Substitution replaced by Blake
 ]]>
 </event>
-<event eventid="354" prd="3" game_clock="02:36" htms="71" vtms="81" msg_type="3" action_type="12" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="354" prd="3" game_clock="02:36" htms="71" vtms="81" msg_type="3" action_type="12" player_code="russell_westbrook" tm="thunder">
 <![CDATA[
 (02:36)[OKC 81-71] Westbrook Free Throw 2 of 2 (25 PTS)
 ]]>
@@ -307,7 +307,7 @@
 (02:12)[POR 73-81] Kaman Layup Shot: Made (6 PTS) Assist: Blake (1 AST)
 ]]>
 </event>
-<event eventid="359" prd="3" game_clock="02:06" htms="73" vtms="81" msg_type="2" action_type="5" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="359" prd="3" game_clock="02:06" htms="73" vtms="81" msg_type="2" action_type="5" player_code="russell_westbrook" tm="thunder">
 <![CDATA[ (02:06)[OKC] Westbrook Layup Shot: Missed ]]>
 </event>
 <event eventid="360" prd="3" game_clock="02:05" htms="73" vtms="81" msg_type="4" action_type="0" player_code="chris_kaman" tm="blazers">
@@ -316,10 +316,10 @@
 <event eventid="361" prd="3" game_clock="01:57" htms="73" vtms="81" msg_type="2" action_type="1" player_code="lamarcus_aldridge" tm="blazers">
 <![CDATA[ (01:57)[POR] Aldridge 3pt Shot: Missed ]]>
 </event>
-<event eventid="362" prd="3" game_clock="01:56" htms="73" vtms="81" msg_type="4" action_type="0" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="362" prd="3" game_clock="01:56" htms="73" vtms="81" msg_type="4" action_type="0" player_code="russell_westbrook" tm="thunder">
 <![CDATA[ (01:56)[OKC] Westbrook Rebound (Off:2 Def:8) ]]>
 </event>
-<event eventid="364" prd="3" game_clock="01:42" htms="73" vtms="83" msg_type="1" action_type="5" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="364" prd="3" game_clock="01:42" htms="73" vtms="83" msg_type="1" action_type="5" player_code="russell_westbrook" tm="thunder">
 <![CDATA[
 (01:42)[OKC 83-73] Westbrook Layup Shot: Made (27 PTS) Assist: McGary (2 AST)
 ]]>
@@ -327,7 +327,7 @@
 <event eventid="365" prd="3" game_clock="01:28" htms="73" vtms="83" msg_type="6" action_type="1" player_code="anthony_morrow" tm="thunder">
 <![CDATA[ (01:28)[OKC] Morrow Foul: Personal (3 PF) ]]>
 </event>
-<event eventid="366" prd="3" game_clock="01:28" htms="73" vtms="83" msg_type="8" action_type="0" player_code="russell_westbrook russell_westbrook" tm="thunder">
+<event eventid="366" prd="3" game_clock="01:28" htms="73" vtms="83" msg_type="8" action_type="0" player_code="russell_westbrook" tm="thunder">
 <![CDATA[
 (01:28)[OKC] Westbrook Substitution replaced by Augustin
 ]]>
