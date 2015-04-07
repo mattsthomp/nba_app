@@ -1,0 +1,49 @@
+<%= form_for(@event) do |f| %>
+  <% if @event.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@event.errors.count, "error") %> prohibited this event from being saved:</h2>
+
+      <ul>
+      <% @event.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :event_num %><br>
+    <%= f.number_field :event_num %>
+  </div>
+  <div class="field">
+    <%= f.label :player_code %><br>
+    <%= f.text_field :player_code %>
+  </div>
+  <div class="field">
+    <%= f.label :team %><br>
+    <%= f.text_field :team %>
+  </div>
+  <div class="field">
+    <%= f.label :game_id %><br>
+    <%= f.text_field :game_id %>
+  </div>
+  <div class="field">
+    <%= f.label :event_type %><br>
+    <%= f.number_field :event_type %>
+  </div>
+  <div class="field">
+    <%= f.label :time_elapsed %><br>
+    <%= f.number_field :time_elapsed %>
+  </div>
+  <div class="field">
+    <%= f.label :home_score %><br>
+    <%= f.number_field :home_score %>
+  </div>
+  <div class="field">
+    <%= f.label :visitor_score %><br>
+    <%= f.number_field :visitor_score %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

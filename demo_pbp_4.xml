@@ -1,0 +1,569 @@
+<message gdt="20150227" id="1425106560131" next_url="http://data.nba.com/data/15m/xml/nbacom/2014/scores/20150227/OKCPOR/pbp_4.xml">
+<game arn="51|Moda Center|Portland, OR|19962|19980" id="0021400869" ldchg="2" tie="6" poss="" pord="" timh="1930" timloc="1930" timv="2230" clk=" " gcd="20150227/OKCPOR" gstat="" gstattxt="Final" gtyp="2" prd="4" rcp="" seq="14" timet="2230" vid="/video/games/blazers/2015/02/27/0021400869-okc-por-play4.nba/index.html" nbrd="ESPN">
+<event eventid="380" prd="4" game_clock="12:00" htms="78" vtms="89" msg_type="12" action_type="0" player_code="" tm="blazers">
+<![CDATA[ (12:00)Start Period ]]>
+</event>
+<event eventid="381" prd="4" game_clock="11:39" htms="78" vtms="89" msg_type="2" action_type="5" player_code="dion_waiters" tm="thunder">
+<![CDATA[ (11:39)[OKC] Waiters Layup Shot: Missed ]]>
+</event>
+<event eventid="382" prd="4" game_clock="11:38" htms="78" vtms="89" msg_type="4" action_type="0" player_code="chris_kaman" tm="blazers">
+<![CDATA[ (11:38)[POR] Kaman Rebound (Off:1 Def:4) ]]>
+</event>
+<event eventid="383" prd="4" game_clock="11:25" htms="78" vtms="89" msg_type="2" action_type="1" player_code="wesley_matthews" tm="blazers">
+<![CDATA[ (11:25)[POR] Matthews Jump Shot: Missed ]]>
+</event>
+<event eventid="384" prd="4" game_clock="11:24" htms="78" vtms="89" msg_type="4" action_type="0" player_code="chris_kaman" tm="blazers">
+<![CDATA[ (11:24)[POR] Kaman Rebound (Off:2 Def:4) ]]>
+</event>
+<event eventid="385" prd="4" game_clock="11:24" htms="80" vtms="89" msg_type="1" action_type="72" player_code="chris_kaman" tm="blazers">
+<![CDATA[
+(11:24)[POR 80-89] Kaman Putback Layup Shot: Made (8 PTS)
+]]>
+</event>
+<event eventid="386" prd="4" game_clock="11:10" htms="80" vtms="89" msg_type="6" action_type="1" player_code="steve_blake" tm="blazers">
+<![CDATA[ (11:10)[POR] Blake Foul: Personal (1 PF) ]]>
+</event>
+<event eventid="387" prd="4" game_clock="11:03" htms="80" vtms="89" msg_type="6" action_type="2" player_code="steve_blake" tm="blazers">
+<![CDATA[ (11:03)[POR] Blake Foul: Shooting (2 PF) (2 FTA) ]]>
+</event>
+<event eventid="388" prd="4" game_clock="11:03" htms="80" vtms="90" msg_type="3" action_type="11" player_code="dj_augustin" tm="thunder">
+<![CDATA[
+(11:03)[OKC 90-80] Augustin Free Throw 1 of 2 (5 PTS)
+]]>
+</event>
+<event eventid="390" prd="4" game_clock="11:03" htms="80" vtms="91" msg_type="3" action_type="12" player_code="dj_augustin" tm="thunder">
+<![CDATA[
+(11:03)[OKC 91-80] Augustin Free Throw 2 of 2 (6 PTS)
+]]>
+</event>
+<event eventid="392" prd="4" game_clock="10:45" htms="80" vtms="91" msg_type="6" action_type="1" player_code="anthony_morrow" tm="thunder">
+<![CDATA[ (10:45)[OKC] Morrow Foul: Personal (2 PF) ]]>
+</event>
+<event eventid="393" prd="4" game_clock="10:37" htms="80" vtms="91" msg_type="6" action_type="2" player_code="dion_waiters" tm="thunder">
+<![CDATA[ (10:37)[OKC] Waiters Foul: Shooting (3 PF) (2 FTA) ]]>
+</event>
+<event eventid="394" prd="4" game_clock="10:37" htms="81" vtms="91" msg_type="3" action_type="11" player_code="wesley_matthews" tm="blazers">
+<![CDATA[
+(10:37)[POR 81-91] Matthews Free Throw 1 of 2 (4 PTS)
+]]>
+</event>
+<event eventid="396" prd="4" game_clock="10:37" htms="82" vtms="91" msg_type="3" action_type="12" player_code="wesley_matthews" tm="blazers">
+<![CDATA[
+(10:37)[POR 82-91] Matthews Free Throw 2 of 2 (5 PTS)
+]]>
+</event>
+<event eventid="398" prd="4" game_clock="10:17" htms="82" vtms="91" msg_type="2" action_type="5" player_code="dj_augustin" tm="thunder">
+<![CDATA[ (10:17)[OKC] Augustin Layup Shot: Missed ]]>
+</event>
+<event eventid="399" prd="4" game_clock="10:16" htms="82" vtms="91" msg_type="4" action_type="0" player_code="mitch_mcgary" tm="thunder">
+<![CDATA[ (10:16)[OKC] McGary Rebound (Off:3 Def:5) ]]>
+</event>
+<event eventid="400" prd="4" game_clock="10:15" htms="82" vtms="93" msg_type="1" action_type="44" player_code="mitch_mcgary" tm="thunder">
+<![CDATA[
+(10:15)[OKC 93-82] McGary Reverse Layup Shot: Made (18 PTS)
+]]>
+</event>
+<event eventid="401" prd="4" game_clock="09:56" htms="82" vtms="93" msg_type="2" action_type="1" player_code="dorell_wright" tm="blazers">
+<![CDATA[ (09:56)[POR] Wright 3pt Shot: Missed ]]>
+</event>
+<event eventid="402" prd="4" game_clock="09:55" htms="82" vtms="93" msg_type="4" action_type="0" player_code="mitch_mcgary" tm="thunder">
+<![CDATA[ (09:55)[OKC] McGary Rebound (Off:3 Def:6) ]]>
+</event>
+<event eventid="403" prd="4" game_clock="09:40" htms="82" vtms="95" msg_type="1" action_type="5" player_code="mitch_mcgary" tm="thunder">
+<![CDATA[
+(09:40)[OKC 95-82] McGary Layup Shot: Made (20 PTS) Assist: Augustin (4 AST)
+]]>
+</event>
+<event eventid="404" prd="4" game_clock="09:40" htms="82" vtms="95" msg_type="9" action_type="1" player_code="" tm="blazers">
+<![CDATA[ (09:40)[POR] Team Timeout : Regular ]]>
+</event>
+<event eventid="406" prd="4" game_clock="09:40" htms="82" vtms="95" msg_type="8" action_type="0" player_code="steve_blake" tm="blazers">
+<![CDATA[
+(09:40)[POR] Blake Substitution replaced by Lillard
+]]>
+</event>
+<event eventid="407" prd="4" game_clock="09:28" htms="85" vtms="95" msg_type="1" action_type="1" player_code="arron_afflalo" tm="blazers">
+<![CDATA[
+(09:28)[POR 85-95] Afflalo 3pt Shot: Made (10 PTS) Assist: Lillard (5 AST)
+]]>
+</event>
+<event eventid="408" prd="4" game_clock="09:14" htms="85" vtms="95" msg_type="6" action_type="4" player_code="mitch_mcgary" tm="thunder">
+<![CDATA[ (09:14)[OKC] McGary Foul: Offensive (2 PF) ]]>
+</event>
+<event eventid="409" prd="4" game_clock="09:14" htms="85" vtms="95" msg_type="5" action_type="5" player_code="mitch_mcgary" tm="thunder">
+<![CDATA[ (09:14)[OKC] McGary Turnover : Foul (2 TO) ]]>
+</event>
+<event eventid="410" prd="4" game_clock="09:05" htms="85" vtms="95" msg_type="5" action_type="1" player_code="wesley_matthews" tm="blazers">
+<![CDATA[
+(09:05)[POR] Matthews Turnover : Bad Pass (1 TO) Steal:Augustin (2 ST)
+]]>
+</event>
+<event eventid="411" prd="4" game_clock="09:00" htms="85" vtms="95" msg_type="2" action_type="5" player_code="dj_augustin" tm="thunder">
+<![CDATA[
+(09:00)[OKC] Augustin Layup Shot: Missed Block: Matthews (1 BLK)
+]]>
+</event>
+<event eventid="412" prd="4" game_clock="08:58" htms="85" vtms="95" msg_type="4" action_type="0" player_code="chris_kaman" tm="blazers">
+<![CDATA[ (08:58)[POR] Kaman Rebound (Off:2 Def:5) ]]>
+</event>
+<event eventid="413" prd="4" game_clock="08:56" htms="85" vtms="95" msg_type="6" action_type="2" player_code="anthony_morrow" tm="thunder">
+<![CDATA[ (08:56)[OKC] Morrow Foul: Shooting (3 PF) (2 FTA) ]]>
+</event>
+<event eventid="414" prd="4" game_clock="08:56" htms="85" vtms="95" msg_type="3" action_type="11" player_code="arron_afflalo" tm="blazers">
+<![CDATA[ (08:56)[POR] Afflalo Free Throw 1 of 2 Missed ]]>
+</event>
+<event eventid="415" prd="4" game_clock="08:56" htms="85" vtms="95" msg_type="4" action_type="1" player_code="" tm="blazers">
+<![CDATA[ (08:56)[POR] Team Rebound ]]>
+</event>
+<event eventid="416" prd="4" game_clock="08:56" htms="85" vtms="95" msg_type="8" action_type="0" player_code="wesley_matthews" tm="blazers">
+<![CDATA[
+(08:56)[POR] Matthews Substitution replaced by Batum
+]]>
+</event>
+<event eventid="417" prd="4" game_clock="08:56" htms="86" vtms="95" msg_type="3" action_type="12" player_code="arron_afflalo" tm="blazers">
+<![CDATA[
+(08:56)[POR 86-95] Afflalo Free Throw 2 of 2 (11 PTS)
+]]>
+</event>
+<event eventid="419" prd="4" game_clock="08:38" htms="86" vtms="97" msg_type="1" action_type="1" player_code="dion_waiters" tm="thunder">
+<![CDATA[
+(08:38)[OKC 97-86] Waiters Jump Shot: Made (7 PTS) Assist: Singler (2 AST)
+]]>
+</event>
+<event eventid="420" prd="4" game_clock="08:21" htms="86" vtms="97" msg_type="6" action_type="2" player_code="kyle_singler" tm="thunder">
+<![CDATA[ (08:21)[OKC] Singler Foul: Shooting (2 PF) (2 FTA) ]]>
+</event>
+<event eventid="421" prd="4" game_clock="08:21" htms="86" vtms="97" msg_type="3" action_type="11" player_code="damian_lillard" tm="blazers">
+<![CDATA[ (08:21)[POR] Lillard Free Throw 1 of 2 Missed ]]>
+</event>
+<event eventid="423" prd="4" game_clock="08:21" htms="86" vtms="97" msg_type="4" action_type="1" player_code="" tm="blazers">
+<![CDATA[ (08:21)[POR] Team Rebound ]]>
+</event>
+<event eventid="424" prd="4" game_clock="08:21" htms="86" vtms="97" msg_type="8" action_type="0" player_code="anthony_morrow" tm="thunder">
+<![CDATA[
+(08:21)[OKC] Morrow Substitution replaced by Westbrook
+]]>
+</event>
+<event eventid="425" prd="4" game_clock="08:21" htms="86" vtms="97" msg_type="8" action_type="0" player_code="chris_kaman" tm="blazers">
+<![CDATA[
+(08:21)[POR] Kaman Substitution replaced by Aldridge
+]]>
+</event>
+<event eventid="427" prd="4" game_clock="08:21" htms="87" vtms="97" msg_type="3" action_type="12" player_code="damian_lillard" tm="blazers">
+<![CDATA[
+(08:21)[POR 87-97] Lillard Free Throw 2 of 2 (23 PTS)
+]]>
+</event>
+<event eventid="430" prd="4" game_clock="08:10" htms="87" vtms="97" msg_type="2" action_type="78" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (08:10)[OKC] Westbrook Floating Jump shot: Missed ]]>
+</event>
+<event eventid="431" prd="4" game_clock="08:09" htms="87" vtms="97" msg_type="4" action_type="0" player_code="" tm="blazers">
+<![CDATA[ (08:09)[POR] Team Rebound ]]>
+</event>
+<event eventid="432" prd="4" game_clock="07:56" htms="89" vtms="97" msg_type="1" action_type="42" player_code="damian_lillard" tm="blazers">
+<![CDATA[
+(07:56)[POR 89-97] Lillard Driving Layup Shot: Made (25 PTS)
+]]>
+</event>
+<event eventid="433" prd="4" game_clock="07:38" htms="89" vtms="97" msg_type="2" action_type="5" player_code="dion_waiters" tm="thunder">
+<![CDATA[
+(07:38)[OKC] Waiters Layup Shot: Missed Block: Aldridge (1 BLK)
+]]>
+</event>
+<event eventid="434" prd="4" game_clock="07:38" htms="89" vtms="97" msg_type="4" action_type="0" player_code="" tm="thunder">
+<![CDATA[ (07:38)[OKC] Team Rebound ]]>
+</event>
+<event eventid="435" prd="4" game_clock="07:38" htms="89" vtms="97" msg_type="8" action_type="0" player_code="mitch_mcgary" tm="thunder">
+<![CDATA[ (07:38)[OKC] McGary Substitution replaced by Ibaka ]]>
+</event>
+<event eventid="436" prd="4" game_clock="07:30" htms="89" vtms="97" msg_type="2" action_type="1" player_code="serge_ibaka" tm="thunder">
+<![CDATA[
+(07:30)[OKC] Ibaka Jump Shot: Missed Block: Batum (1 BLK)
+]]>
+</event>
+<event eventid="437" prd="4" game_clock="07:30" htms="89" vtms="97" msg_type="4" action_type="0" player_code="serge_ibaka" tm="thunder">
+<![CDATA[ (07:30)[OKC] Ibaka Rebound (Off:2 Def:2) ]]>
+</event>
+<event eventid="438" prd="4" game_clock="07:30" htms="89" vtms="97" msg_type="5" action_type="11" player_code="" tm="thunder">
+<![CDATA[ (07:30)[OKC] Team Turnover : Shot Clock Turnover ]]>
+</event>
+<event eventid="440" prd="4" game_clock="07:20" htms="91" vtms="97" msg_type="1" action_type="42" player_code="damian_lillard" tm="blazers">
+<![CDATA[
+(07:20)[POR 91-97] Lillard Driving Layup Shot: Made (27 PTS)
+]]>
+</event>
+<event eventid="441" prd="4" game_clock="07:19" htms="91" vtms="97" msg_type="9" action_type="1" player_code="" tm="thunder">
+<![CDATA[ (07:19)[OKC] Team Timeout : Regular ]]>
+</event>
+<event eventid="443" prd="4" game_clock="07:10" htms="91" vtms="99" msg_type="1" action_type="42" player_code="russell_westbrook" tm="thunder">
+<![CDATA[
+(07:10)[OKC 99-91] Westbrook Driving Layup Shot: Made (29 PTS)
+]]>
+</event>
+<event eventid="444" prd="4" game_clock="06:56" htms="91" vtms="99" msg_type="6" action_type="2" player_code="kyle_singler" tm="thunder">
+<![CDATA[ (06:56)[OKC] Singler Foul: Shooting (3 PF) (3 FTA) ]]>
+</event>
+<event eventid="445" prd="4" game_clock="06:56" htms="92" vtms="99" msg_type="3" action_type="13" player_code="nicolas_batum" tm="blazers">
+<![CDATA[ (06:56)[POR 92-99] Batum Free Throw 1 of 3 (7 PTS) ]]>
+</event>
+<event eventid="446" prd="4" game_clock="06:56" htms="93" vtms="99" msg_type="3" action_type="14" player_code="nicolas_batum" tm="blazers">
+<![CDATA[ (06:56)[POR 93-99] Batum Free Throw 2 of 3 (8 PTS) ]]>
+</event>
+<event eventid="448" prd="4" game_clock="06:56" htms="94" vtms="99" msg_type="3" action_type="15" player_code="nicolas_batum" tm="blazers">
+<![CDATA[ (06:56)[POR 94-99] Batum Free Throw 3 of 3 (9 PTS) ]]>
+</event>
+<event eventid="450" prd="4" game_clock="06:47" htms="94" vtms="101" msg_type="1" action_type="42" player_code="russell_westbrook" tm="thunder">
+<![CDATA[
+(06:47)[OKC 101-94] Westbrook Driving Layup Shot: Made (31 PTS)
+]]>
+</event>
+<event eventid="451" prd="4" game_clock="06:31" htms="94" vtms="101" msg_type="2" action_type="1" player_code="damian_lillard" tm="blazers">
+<![CDATA[ (06:31)[POR] Lillard Jump Shot: Missed ]]>
+</event>
+<event eventid="453" prd="4" game_clock="06:30" htms="94" vtms="101" msg_type="4" action_type="0" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[ (06:30)[POR] Aldridge Rebound (Off:5 Def:7) ]]>
+</event>
+<event eventid="452" prd="4" game_clock="06:30" htms="96" vtms="101" msg_type="1" action_type="72" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[
+(06:30)[POR 96-101] Aldridge Putback Layup Shot: Made (22 PTS)
+]]>
+</event>
+<event eventid="454" prd="4" game_clock="06:11" htms="96" vtms="101" msg_type="2" action_type="1" player_code="dj_augustin" tm="thunder">
+<![CDATA[ (06:11)[OKC] Augustin 3pt Shot: Missed ]]>
+</event>
+<event eventid="455" prd="4" game_clock="06:10" htms="96" vtms="101" msg_type="4" action_type="0" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (06:10)[OKC] Westbrook Rebound (Off:3 Def:8) ]]>
+</event>
+<event eventid="456" prd="4" game_clock="05:57" htms="96" vtms="101" msg_type="2" action_type="1" player_code="serge_ibaka" tm="thunder">
+<![CDATA[ (05:57)[OKC] Ibaka Jump Shot: Missed ]]>
+</event>
+<event eventid="457" prd="4" game_clock="05:56" htms="96" vtms="101" msg_type="4" action_type="0" player_code="" tm="blazers">
+<![CDATA[ (05:56)[POR] Team Rebound ]]>
+</event>
+<event eventid="458" prd="4" game_clock="05:55" htms="96" vtms="101" msg_type="8" action_type="0" player_code="dorell_wright" tm="blazers">
+<![CDATA[
+(05:55)[POR] Wright Substitution replaced by Matthews
+]]>
+</event>
+<event eventid="459" prd="4" game_clock="05:44" htms="96" vtms="101" msg_type="6" action_type="2" player_code="dion_waiters" tm="thunder">
+<![CDATA[ (05:44)[OKC] Waiters Foul: Shooting (4 PF) (3 FTA) ]]>
+</event>
+<event eventid="460" prd="4" game_clock="05:44" htms="96" vtms="101" msg_type="3" action_type="13" player_code="arron_afflalo" tm="blazers">
+<![CDATA[ (05:44)[POR] Afflalo Free Throw 1 of 3 Missed ]]>
+</event>
+<event eventid="461" prd="4" game_clock="05:44" htms="96" vtms="101" msg_type="4" action_type="1" player_code="" tm="blazers">
+<![CDATA[ (05:44)[POR] Team Rebound ]]>
+</event>
+<event eventid="462" prd="4" game_clock="05:44" htms="97" vtms="101" msg_type="3" action_type="14" player_code="arron_afflalo" tm="blazers">
+<![CDATA[
+(05:44)[POR 97-101] Afflalo Free Throw 2 of 3 (12 PTS)
+]]>
+</event>
+<event eventid="464" prd="4" game_clock="05:44" htms="97" vtms="101" msg_type="8" action_type="0" player_code="dion_waiters" tm="thunder">
+<![CDATA[
+(05:44)[OKC] Waiters Substitution replaced by Roberson
+]]>
+</event>
+<event eventid="465" prd="4" game_clock="05:44" htms="98" vtms="101" msg_type="3" action_type="15" player_code="arron_afflalo" tm="blazers">
+<![CDATA[
+(05:44)[POR 98-101] Afflalo Free Throw 3 of 3 (13 PTS)
+]]>
+</event>
+<event eventid="468" prd="4" game_clock="05:33" htms="98" vtms="101" msg_type="2" action_type="1" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (05:33)[OKC] Westbrook Jump Shot: Missed ]]>
+</event>
+<event eventid="469" prd="4" game_clock="05:32" htms="98" vtms="101" msg_type="4" action_type="0" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (05:32)[OKC] Westbrook Rebound (Off:4 Def:8) ]]>
+</event>
+<event eventid="470" prd="4" game_clock="05:30" htms="98" vtms="101" msg_type="2" action_type="1" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (05:30)[OKC] Westbrook Jump Shot: Missed ]]>
+</event>
+<event eventid="471" prd="4" game_clock="05:28" htms="98" vtms="101" msg_type="4" action_type="0" player_code="serge_ibaka" tm="thunder">
+<![CDATA[ (05:28)[OKC] Ibaka Rebound (Off:3 Def:2) ]]>
+</event>
+<event eventid="472" prd="4" game_clock="05:25" htms="98" vtms="103" msg_type="1" action_type="5" player_code="serge_ibaka" tm="thunder">
+<![CDATA[
+(05:25)[OKC 103-98] Ibaka Layup Shot: Made (14 PTS)
+]]>
+</event>
+<event eventid="473" prd="4" game_clock="05:06" htms="101" vtms="103" msg_type="1" action_type="1" player_code="wesley_matthews" tm="blazers">
+<![CDATA[
+(05:06)[POR 101-103] Matthews 3pt Shot: Made (8 PTS) Assist: Aldridge (4 AST)
+]]>
+</event>
+<event eventid="474" prd="4" game_clock="04:47" htms="101" vtms="103" msg_type="2" action_type="79" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (04:47)[OKC] Westbrook Pullup Jump shot: Missed ]]>
+</event>
+<event eventid="475" prd="4" game_clock="04:45" htms="101" vtms="103" msg_type="4" action_type="0" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[ (04:45)[POR] Aldridge Rebound (Off:5 Def:8) ]]>
+</event>
+<event eventid="476" prd="4" game_clock="04:34" htms="101" vtms="103" msg_type="2" action_type="1" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[ (04:34)[POR] Aldridge Jump Shot: Missed ]]>
+</event>
+<event eventid="478" prd="4" game_clock="04:33" htms="101" vtms="103" msg_type="4" action_type="0" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[ (04:33)[POR] Aldridge Rebound (Off:6 Def:8) ]]>
+</event>
+<event eventid="477" prd="4" game_clock="04:33" htms="103" vtms="103" msg_type="1" action_type="4" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[
+(04:33)[POR 103-103] Aldridge Tip Shot: Made (24 PTS)
+]]>
+</event>
+<event eventid="479" prd="4" game_clock="04:32" htms="103" vtms="103" msg_type="9" action_type="1" player_code="" tm="thunder">
+<![CDATA[ (04:32)[OKC] Team Timeout : Regular ]]>
+</event>
+<event eventid="481" prd="4" game_clock="04:15" htms="103" vtms="103" msg_type="2" action_type="1" player_code="andre_roberson" tm="thunder">
+<![CDATA[ (04:15)[OKC] Roberson 3pt Shot: Missed ]]>
+</event>
+<event eventid="482" prd="4" game_clock="04:15" htms="103" vtms="103" msg_type="4" action_type="0" player_code="" tm="thunder">
+<![CDATA[ (04:15)[OKC] Team Rebound ]]>
+</event>
+<event eventid="484" prd="4" game_clock="04:10" htms="103" vtms="103" msg_type="2" action_type="1" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (04:10)[OKC] Westbrook 3pt Shot: Missed ]]>
+</event>
+<event eventid="485" prd="4" game_clock="04:09" htms="103" vtms="103" msg_type="4" action_type="0" player_code="arron_afflalo" tm="blazers">
+<![CDATA[ (04:09)[POR] Afflalo Rebound (Off:0 Def:1) ]]>
+</event>
+<event eventid="486" prd="4" game_clock="03:56" htms="106" vtms="103" msg_type="1" action_type="1" player_code="arron_afflalo" tm="blazers">
+<![CDATA[
+(03:56)[POR 106-103] Afflalo 3pt Shot: Made (16 PTS) Assist: Aldridge (5 AST)
+]]>
+</event>
+<event eventid="488" prd="4" game_clock="03:38" htms="106" vtms="103" msg_type="2" action_type="1" player_code="kyle_singler" tm="thunder">
+<![CDATA[ (03:38)[OKC] Singler 3pt Shot: Missed ]]>
+</event>
+<event eventid="489" prd="4" game_clock="03:37" htms="106" vtms="103" msg_type="4" action_type="0" player_code="wesley_matthews" tm="blazers">
+<![CDATA[ (03:37)[POR] Matthews Rebound (Off:1 Def:5) ]]>
+</event>
+<event eventid="490" prd="4" game_clock="03:27" htms="106" vtms="103" msg_type="2" action_type="1" player_code="damian_lillard" tm="blazers">
+<![CDATA[ (03:27)[POR] Lillard 3pt Shot: Missed ]]>
+</event>
+<event eventid="491" prd="4" game_clock="03:25" htms="106" vtms="103" msg_type="4" action_type="0" player_code="kyle_singler" tm="thunder">
+<![CDATA[ (03:25)[OKC] Singler Rebound (Off:0 Def:4) ]]>
+</event>
+<event eventid="492" prd="4" game_clock="03:19" htms="106" vtms="105" msg_type="1" action_type="42" player_code="russell_westbrook" tm="thunder">
+<![CDATA[
+(03:19)[OKC 105-106] Westbrook Driving Layup Shot: Made (33 PTS)
+]]>
+</event>
+<event eventid="493" prd="4" game_clock="03:19" htms="106" vtms="105" msg_type="6" action_type="2" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[
+(03:19)[POR] Aldridge Foul: Shooting (2 PF) (1 FTA)
+]]>
+</event>
+<event eventid="494" prd="4" game_clock="03:19" htms="106" vtms="106" msg_type="3" action_type="10" player_code="russell_westbrook" tm="thunder">
+<![CDATA[
+(03:19)[OKC 106-106] Westbrook Free Throw 1 of 1 (34 PTS)
+]]>
+</event>
+<event eventid="497" prd="4" game_clock="03:01" htms="106" vtms="106" msg_type="2" action_type="1" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[ (03:01)[POR] Aldridge Jump Shot: Missed ]]>
+</event>
+<event eventid="498" prd="4" game_clock="03:00" htms="106" vtms="106" msg_type="4" action_type="0" player_code="serge_ibaka" tm="thunder">
+<![CDATA[ (03:00)[OKC] Ibaka Rebound (Off:3 Def:3) ]]>
+</event>
+<event eventid="499" prd="4" game_clock="02:54" htms="106" vtms="106" msg_type="2" action_type="79" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (02:54)[OKC] Westbrook Pullup Jump shot: Missed ]]>
+</event>
+<event eventid="500" prd="4" game_clock="02:53" htms="106" vtms="106" msg_type="4" action_type="0" player_code="damian_lillard" tm="blazers">
+<![CDATA[ (02:53)[POR] Lillard Rebound (Off:0 Def:3) ]]>
+</event>
+<event eventid="501" prd="4" game_clock="02:38" htms="108" vtms="106" msg_type="1" action_type="5" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[
+(02:38)[POR 108-106] Aldridge Layup Shot: Made (26 PTS)
+]]>
+</event>
+<event eventid="503" prd="4" game_clock="02:26" htms="108" vtms="106" msg_type="2" action_type="1" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (02:26)[OKC] Westbrook Jump Shot: Missed ]]>
+</event>
+<event eventid="504" prd="4" game_clock="02:25" htms="108" vtms="106" msg_type="4" action_type="0" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (02:25)[OKC] Westbrook Rebound (Off:5 Def:8) ]]>
+</event>
+<event eventid="505" prd="4" game_clock="02:22" htms="108" vtms="108" msg_type="1" action_type="66" player_code="russell_westbrook" tm="thunder">
+<![CDATA[
+(02:22)[OKC 108-108] Westbrook Jump Bank Shot: Made (36 PTS)
+]]>
+</event>
+<event eventid="506" prd="4" game_clock="01:58" htms="110" vtms="108" msg_type="1" action_type="47" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[
+(01:58)[POR 110-108] Aldridge Turnaround Jump Shot: Made (28 PTS) Assist: Matthews (3 AST)
+]]>
+</event>
+<event eventid="507" prd="4" game_clock="01:48" htms="110" vtms="108" msg_type="6" action_type="2" player_code="arron_afflalo" tm="blazers">
+<![CDATA[ (01:48)[POR] Afflalo Foul: Shooting (4 PF) (2 FTA) ]]>
+</event>
+<event eventid="508" prd="4" game_clock="01:48" htms="110" vtms="108" msg_type="6" action_type="16" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[ (01:48)Double Technical - Aldridge, Ibaka ]]>
+</event>
+<event eventid="513" prd="4" game_clock="01:48" htms="110" vtms="108" msg_type="8" action_type="0" player_code="andre_roberson" tm="thunder">
+<![CDATA[
+(01:48)[OKC] Roberson Substitution replaced by Morrow
+]]>
+</event>
+<event eventid="512" prd="4" game_clock="01:48" htms="110" vtms="109" msg_type="3" action_type="11" player_code="russell_westbrook" tm="thunder">
+<![CDATA[
+(01:48)[OKC 109-110] Westbrook Free Throw 1 of 2 (37 PTS)
+]]>
+</event>
+<event eventid="515" prd="4" game_clock="01:48" htms="110" vtms="110" msg_type="3" action_type="12" player_code="russell_westbrook" tm="thunder">
+<![CDATA[
+(01:48)[OKC 110-110] Westbrook Free Throw 2 of 2 (38 PTS)
+]]>
+</event>
+<event eventid="518" prd="4" game_clock="01:34" htms="110" vtms="110" msg_type="2" action_type="5" player_code="damian_lillard" tm="blazers">
+<![CDATA[
+(01:34)[POR] Lillard Layup Shot: Missed Block: Singler (2 BLK)
+]]>
+</event>
+<event eventid="519" prd="4" game_clock="01:34" htms="110" vtms="110" msg_type="4" action_type="0" player_code="" tm="blazers">
+<![CDATA[ (01:34)[POR] Team Rebound ]]>
+</event>
+<event eventid="522" prd="4" game_clock="01:25" htms="110" vtms="110" msg_type="2" action_type="80" player_code="damian_lillard" tm="blazers">
+<![CDATA[ (01:25)[POR] Lillard Step Back Jump shot: Missed ]]>
+</event>
+<event eventid="523" prd="4" game_clock="01:23" htms="110" vtms="110" msg_type="4" action_type="0" player_code="anthony_morrow" tm="thunder">
+<![CDATA[ (01:23)[OKC] Morrow Rebound (Off:0 Def:2) ]]>
+</event>
+<event eventid="524" prd="4" game_clock="01:10" htms="110" vtms="110" msg_type="2" action_type="1" player_code="dj_augustin" tm="thunder">
+<![CDATA[ (01:10)[OKC] Augustin 3pt Shot: Missed ]]>
+</event>
+<event eventid="525" prd="4" game_clock="01:09" htms="110" vtms="110" msg_type="4" action_type="0" player_code="nicolas_batum" tm="blazers">
+<![CDATA[ (01:09)[POR] Batum Rebound (Off:0 Def:4) ]]>
+</event>
+<event eventid="526" prd="4" game_clock="00:46.9" htms="110" vtms="110" msg_type="2" action_type="47" player_code="wesley_matthews" tm="blazers">
+<![CDATA[
+(00:46.9)[POR] Matthews Turnaround Jump Shot: Missed
+]]>
+</event>
+<event eventid="527" prd="4" game_clock="00:44.9" htms="110" vtms="110" msg_type="4" action_type="0" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[ (00:44.9)[POR] Aldridge Rebound (Off:7 Def:8) ]]>
+</event>
+<event eventid="528" prd="4" game_clock="00:44.1" htms="110" vtms="110" msg_type="6" action_type="2" player_code="kyle_singler" tm="thunder">
+<![CDATA[
+(00:44.1)[OKC] Singler Foul: Shooting (4 PF) (2 FTA)
+]]>
+</event>
+<event eventid="529" prd="4" game_clock="00:44.1" htms="111" vtms="110" msg_type="3" action_type="11" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[
+(00:44.1)[POR 111-110] Aldridge Free Throw 1 of 2 (29 PTS)
+]]>
+</event>
+<event eventid="531" prd="4" game_clock="00:44.1" htms="111" vtms="110" msg_type="3" action_type="12" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[ (00:44.1)[POR] Aldridge Free Throw 2 of 2 Missed ]]>
+</event>
+<event eventid="533" prd="4" game_clock="00:42.4" htms="111" vtms="110" msg_type="4" action_type="0" player_code="" tm="thunder">
+<![CDATA[ (00:42.4)[OKC] Team Rebound ]]>
+</event>
+<event eventid="534" prd="4" game_clock="00:33.9" htms="111" vtms="110" msg_type="2" action_type="86" player_code="russell_westbrook" tm="thunder">
+<![CDATA[
+(00:33.9)[OKC] Westbrook Turnaround Fadeaway shot: Missed
+]]>
+</event>
+<event eventid="535" prd="4" game_clock="00:31.7" htms="111" vtms="110" msg_type="4" action_type="0" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[ (00:31.7)[POR] Aldridge Rebound (Off:7 Def:9) ]]>
+</event>
+<event eventid="536" prd="4" game_clock="00:12.9" htms="111" vtms="110" msg_type="2" action_type="46" player_code="damian_lillard" tm="blazers">
+<![CDATA[ (00:12.9)[POR] Lillard Running Jump Shot: Missed ]]>
+</event>
+<event eventid="537" prd="4" game_clock="00:11.7" htms="111" vtms="110" msg_type="4" action_type="0" player_code="anthony_morrow" tm="thunder">
+<![CDATA[ (00:11.7)[OKC] Morrow Rebound (Off:0 Def:3) ]]>
+</event>
+<event eventid="538" prd="4" game_clock="00:11.1" htms="111" vtms="110" msg_type="9" action_type="1" player_code="" tm="thunder">
+<![CDATA[ (00:11.1)[OKC] Team Timeout : Regular ]]>
+</event>
+<event eventid="542" prd="4" game_clock="00:06.9" htms="111" vtms="110" msg_type="2" action_type="5" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (00:06.9)[OKC] Westbrook Layup Shot: Missed ]]>
+</event>
+<event eventid="543" prd="4" game_clock="00:06.3" htms="111" vtms="110" msg_type="4" action_type="0" player_code="arron_afflalo" tm="blazers">
+<![CDATA[ (00:06.3)[POR] Afflalo Rebound (Off:0 Def:2) ]]>
+</event>
+<event eventid="544" prd="4" game_clock="00:06.3" htms="111" vtms="110" msg_type="6" action_type="28" player_code="serge_ibaka" tm="thunder">
+<![CDATA[
+(00:06.3)[OKC] Ibaka Foul: Personal Take (2 PF) (2 FTA)
+]]>
+</event>
+<event eventid="545" prd="4" game_clock="00:06.3" htms="112" vtms="110" msg_type="3" action_type="11" player_code="arron_afflalo" tm="blazers">
+<![CDATA[
+(00:06.3)[POR 112-110] Afflalo Free Throw 1 of 2 (17 PTS)
+]]>
+</event>
+<event eventid="547" prd="4" game_clock="00:06.3" htms="113" vtms="110" msg_type="3" action_type="12" player_code="arron_afflalo" tm="blazers">
+<![CDATA[
+(00:06.3)[POR 113-110] Afflalo Free Throw 2 of 2 (18 PTS)
+]]>
+</event>
+<event eventid="549" prd="4" game_clock="00:02.5" htms="113" vtms="110" msg_type="6" action_type="2" player_code="wesley_matthews" tm="blazers">
+<![CDATA[
+(00:02.5)[POR] Matthews Foul: Shooting (1 PF) (3 FTA)
+]]>
+</event>
+<event eventid="550" prd="4" game_clock="00:02.5" htms="113" vtms="110" msg_type="3" action_type="13" player_code="russell_westbrook" tm="thunder">
+<![CDATA[ (00:02.5)[OKC] Westbrook Free Throw 1 of 3 Missed ]]>
+</event>
+<event eventid="551" prd="4" game_clock="00:02.5" htms="113" vtms="110" msg_type="4" action_type="1" player_code="" tm="thunder">
+<![CDATA[ (00:02.5)[OKC] Team Rebound ]]>
+</event>
+<event eventid="552" prd="4" game_clock="00:02.5" htms="113" vtms="111" msg_type="3" action_type="14" player_code="russell_westbrook" tm="thunder">
+<![CDATA[
+(00:02.5)[OKC 111-113] Westbrook Free Throw 2 of 3 (39 PTS)
+]]>
+</event>
+<event eventid="554" prd="4" game_clock="00:02.5" htms="113" vtms="111" msg_type="8" action_type="0" player_code="dj_augustin" tm="thunder">
+<![CDATA[
+(00:02.5)[OKC] Augustin Substitution replaced by Roberson
+]]>
+</event>
+<event eventid="555" prd="4" game_clock="00:02.5" htms="113" vtms="111" msg_type="8" action_type="0" player_code="kyle_singler" tm="thunder">
+<![CDATA[
+(00:02.5)[OKC] Singler Substitution replaced by McGary
+]]>
+</event>
+<event eventid="556" prd="4" game_clock="00:02.5" htms="113" vtms="111" msg_type="8" action_type="0" player_code="arron_afflalo" tm="blazers">
+<![CDATA[
+(00:02.5)[POR] Afflalo Substitution replaced by Lopez
+]]>
+</event>
+<event eventid="558" prd="4" game_clock="00:02.5" htms="113" vtms="111" msg_type="8" action_type="0" player_code="anthony_morrow" tm="thunder">
+<![CDATA[
+(00:02.5)[OKC] Morrow Substitution replaced by Waiters
+]]>
+</event>
+<event eventid="559" prd="4" game_clock="00:02.5" htms="113" vtms="112" msg_type="3" action_type="15" player_code="russell_westbrook" tm="thunder">
+<![CDATA[
+(00:02.5)[OKC 112-113] Westbrook Free Throw 3 of 3 (40 PTS)
+]]>
+</event>
+<event eventid="562" prd="4" game_clock="00:01.4" htms="113" vtms="112" msg_type="6" action_type="28" player_code="dion_waiters" tm="thunder">
+<![CDATA[
+(00:01.4)[OKC] Waiters Foul: Personal Take (5 PF) (2 FTA)
+]]>
+</event>
+<event eventid="564" prd="4" game_clock="00:01.4" htms="113" vtms="112" msg_type="8" action_type="0" player_code="andre_roberson" tm="thunder">
+<![CDATA[
+(00:01.4)[OKC] Roberson Substitution replaced by Collison
+]]>
+</event>
+<event eventid="566" prd="4" game_clock="00:01.4" htms="114" vtms="112" msg_type="3" action_type="11" player_code="damian_lillard" tm="blazers">
+<![CDATA[
+(00:01.4)[POR 114-112] Lillard Free Throw 1 of 2 (28 PTS)
+]]>
+</event>
+<event eventid="568" prd="4" game_clock="00:01.4" htms="114" vtms="112" msg_type="8" action_type="0" player_code="robin_lopez" tm="blazers">
+<![CDATA[
+(00:01.4)[POR] Lopez Substitution replaced by Afflalo
+]]>
+</event>
+<event eventid="570" prd="4" game_clock="00:01.4" htms="115" vtms="112" msg_type="3" action_type="12" player_code="damian_lillard" tm="blazers">
+<![CDATA[
+(00:01.4)[POR 115-112] Lillard Free Throw 2 of 2 (29 PTS)
+]]>
+</event>
+<event eventid="572" prd="4" game_clock="00:00.0" htms="115" vtms="112" msg_type="5" action_type="1" player_code="nick_collison" tm="thunder">
+<![CDATA[
+(00:00.0)[OKC] Collison Turnover : Bad Pass (2 TO) Steal:Batum (2 ST)
+]]>
+</event>
+<event eventid="574" prd="4" game_clock="00:00.0" htms="115" vtms="112" msg_type="13" action_type="0" player_code="" tm="blazers">
+<![CDATA[ (00:00.0)End Period ]]>
+</event>
+</game>
+</message>

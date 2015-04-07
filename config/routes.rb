@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  resources :games
+  resources :events
+  
+  get 'game_page/game'
+  get 'start_page/home'
+  get 'game_loader' => 'application#loadGame'
+  
+  root 'start_page#home'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

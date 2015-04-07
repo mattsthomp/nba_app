@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event_num: 1
+  player_code: MyString
+  team: MyString
+  game_id: MyString
+  event_type: 1
+  time_elapsed: 1
+  home_score: 1
+  visitor_score: 1
+
+two:
+  event_num: 1
+  player_code: MyString
+  team: MyString
+  game_id: MyString
+  event_type: 1
+  time_elapsed: 1
+  home_score: 1
+  visitor_score: 1
