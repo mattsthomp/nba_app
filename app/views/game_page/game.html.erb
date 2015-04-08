@@ -3,3 +3,13 @@
 
 
 <a href=<%= "demo_start.html?status=" + @counter %>>Keep loading demo</a>
+
+<p> Robin Lopez has a total of <%= @players[:robin_lopez][:dboards] %> rebounds so far</p>
+
+<% @players.each_pair do |key, value| %>
+    <p><%= key.inspect.to_s %> currently has <%= value[:dboards] %> rebounds</p>
+<% end %>
+
+
+
+

@@ -3,6 +3,16 @@
 <event eventid="115" prd="2" game_clock="12:00" htms="28" vtms="25" msg_type="12" action_type="0" player_code="" tm="blazers">
 <![CDATA[ (12:00)Start Period ]]>
 </event>
+<event eventid="115" prd="2" game_clock="12:00" htms="28" vtms="25" msg_type="8" action_type="0" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[
+(12:00)[POR] Aldridge Substitution replaced by Leonard
+]]>
+</event>
+<event eventid="115" prd="2" game_clock="12:00" htms="28" vtms="25" msg_type="8" action_type="0" player_code="andre_roberson" tm="thunder">
+<![CDATA[
+(12:00)[OKC] Roberson Substitution replaced by Morrow
+]]>
+</event>
 <event eventid="116" prd="2" game_clock="11:45" htms="30" vtms="25" msg_type="1" action_type="3" player_code="chris_kaman" tm="blazers">
 <![CDATA[ (11:45)[POR 30-25] Kaman Hook Shot: Made (2 PTS) ]]>
 </event>

@@ -24,7 +24,7 @@ def loadGameForDemo
     Game.create( game_id: game_string, home_team: game_home_team, visiting_team: game_visiting_team, game_date: game_date )
     event_stack.each do |e|
       d = e.children.to_s
-      desc = d[10..-6]
+      desc = d[11..-6]
       prd = e.attr("prd").to_i
       gclock = e.attr("game_clock").to_s
       if prd < 5 
@@ -47,9 +47,34 @@ def loadGameForDemo
 end
 
 def runDemo
-  last_count = params[:status].to_i
-  
-  @counter = (last_count + 3).to_s
+  play_count = (params[:status].to_i) + 10
+  home_player_array = [:nicolas_batum, :lamarcus_aldridge, :wesley_matthews, :robin_lopez, :damian_lillard, :arron_afflalo,
+                       :steve_blake, :chris_kaman, :meyers_leonard, :dorell_wright, :alonzo_gee, :allen_crabbe, :cj_mccollum] 
+  visitor_player_array = [:russell_westbrook, :serge_ibaka, :kyle_singler, :nick_collison, :andre_roberson, :dion_waiters, 
+                          :mitch_mcgary, :anthony_morrow, :dj_augustin, :perry_jones, :enes_kanter, :jeremy_lamb]
+  empty_stat_hash = { :oboards => 0, :dboards => 0, :assists => 0, :steals => 0, :blocks => 0, :turnovers => 0,
+                      :fouls => 0, :made2pt => 0, :missed2pt => 0, :made3pt => 0,:missed3pt => 0,:madeft => 0,:missedft => 0, :ingame => 0}
+  @players = {}
+  home_player_array.each do |p|
+    @players[p] = empty_stat_hash.dup
+  end
+  visitor_player_array.each do |p|
+    @players[p] = empty_stat_hash.dup
+  end
+  event_array = Event.where(game_id: '20150227/OKCPOR').first(play_count)
+  event_array.each do |e|
+    if e[:event_type] == 4
+      reb_player = e[:player_code].to_sym
+      if reb_player == ""
+        # count team rebounds?
+      else
+        if @players[reb_player]
+          @players[reb_player][:dboards] += 1
+        end
+      end
+    end
+  end
+  @counter = play_count.to_s
   render 'game_page/game'
 end
 

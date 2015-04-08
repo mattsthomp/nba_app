@@ -3,6 +3,21 @@
 <event eventid="380" prd="4" game_clock="12:00" htms="78" vtms="89" msg_type="12" action_type="0" player_code="" tm="blazers">
 <![CDATA[ (12:00)Start Period ]]>
 </event>
+<event eventid="380" prd="4" game_clock="12:00" htms="78" vtms="89" msg_type="8" action_type="0" player_code="nicolas_batum" tm="blazers">
+<![CDATA[
+(12:00)[POR] Batum Substitution replaced by Matthews
+]]>
+</event>
+<event eventid="380" prd="4" game_clock="12:00" htms="78" vtms="89" msg_type="8" action_type="0" player_code="serge_ibaka" tm="thunder">
+<![CDATA[
+(12:00)[OKC] Ibaka Substitution replaced by Singler
+]]>
+</event>
+<event eventid="380" prd="4" game_clock="12:00" htms="78" vtms="89" msg_type="8" action_type="0" player_code="lamarcus_aldridge" tm="blazers">
+<![CDATA[
+(12:00)[POR] Aldridge Substitution replaced by Wright
+]]>
+</event>
 <event eventid="381" prd="4" game_clock="11:39" htms="78" vtms="89" msg_type="2" action_type="5" player_code="dion_waiters" tm="thunder">
 <![CDATA[ (11:39)[OKC] Waiters Layup Shot: Missed ]]>
 </event>
