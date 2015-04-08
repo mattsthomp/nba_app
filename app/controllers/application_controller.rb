@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
 
-def loadGame
+def loadGameForDemo
   f1 = File.open("demo_pbp_1.xml")
   g1 = Nokogiri::XML(f1)
   f1.close
@@ -21,7 +21,7 @@ def loadGame
     g4 = Nokogiri::XML(f4)
     f4.close
     event_stack = g1.css("event") + g2.css("event") + g3.css("event") + g4.css("event")
-    Game.create( home_team: game_home_team, visiting_team: game_visiting_team, game_date: game_date )
+    Game.create( game_id: game_string, home_team: game_home_team, visiting_team: game_visiting_team, game_date: game_date )
     event_stack.each do |e|
       d = e.children.to_s
       desc = d[10..-6]
@@ -39,11 +39,18 @@ def loadGame
                     visitor_score: e.attr("vtms"), 
                     event_type: e.attr("msg_type"), 
                     description: desc,
-                    game_id: "",
-                    time_elapsed: elapsed,)
+                    game_id: game_string,
+                    time_elapsed: elapsed )
     end
     render 'game_page/game'
   end
+end
+
+def runDemo
+  last_count = params[:status].to_i
+  
+  @counter = (last_count + 3).to_s
+  render 'game_page/game'
 end
 
   # Prevent CSRF attacks by raising an exception.

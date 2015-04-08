@@ -2,9 +2,10 @@ Rails.application.routes.draw do
   resources :games
   resources :events
   
-  get 'game_page/game'
-  get 'start_page/home'
-  get 'game_loader' => 'application#loadGame'
+  get 'game_page/game' => 'game_page#game'
+  get 'start_page/home' => 'start_page#home'
+  get 'demo_game_loader' => 'application#loadGameForDemo'
+  get 'demo_start' => 'application#runDemo'
   
   root 'start_page#home'
 
