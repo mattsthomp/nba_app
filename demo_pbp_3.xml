@@ -3,6 +3,11 @@
 <event eventid="267" prd="3" game_clock="12:00" htms="47" vtms="59" msg_type="12" action_type="0" player_code="" tm="blazers">
 <![CDATA[ (12:00)Start Period ]]>
 </event>
+<event eventid="267" prd="3" game_clock="12:00" htms="47" vtms="59" msg_type="8" action_type="0" player_code="arron_afflalo" tm="blazers">
+<![CDATA[
+(12:00)[OKC] Afflalo Substitution replaced by Lopez
+]]>
+</event>
 <event eventid="267" prd="3" game_clock="12:00" htms="47" vtms="59" msg_type="8" action_type="0" player_code="mitch_mcgary" tm="thunder">
 <![CDATA[
 (12:00)[OKC] McGary Substitution replaced by Collison

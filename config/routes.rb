@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   get 'start_page/home' => 'start_page#home'
   get 'demo_game_loader' => 'application#loadGameForDemo'
   get 'demo_start' => 'application#runDemo'
-  
   root 'start_page#home'
 
   # The priority is based upon order of creation: first created -> highest priority.

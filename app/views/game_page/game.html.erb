@@ -4,14 +4,16 @@
 
 <a href=<%= "demo_start.html?status=" + @counter %>>Keep loading demo</a>
 
-<p> Robin Lopez has a total of <%= @players[:robin_lopez][:dboards] %> rebounds so far</p>
+<p><%= @players[:serge_ibaka][:plays] %></p>
 
 <% @players.each_pair do |key, value| %>
-    <p><%= key.inspect.to_s %> has <%= value[:dboards] %> rebounds -- <%= value[:blocks] %> blocks -- <%= value[:missed2pt] %> missed 2s -- <%= value[:missed3pt] %> missed 3s
+    <div class=<%= value[:ingame] %>><%= key.inspect.to_s %> has <%= value[:dboards] %> rebounds -- <%= value[:blocks] %> blocks -- <%= value[:missed2pt] %> missed 2s -- <%= value[:missed3pt] %> missed 3s
     -- <%= value[:made2pt] %> 2s -- <%= value[:made3pt] %> 3s -- <%= value[:assists] %> assists -- <%= value[:madeft] %> FTS -- <%= value[:missedft] %> missed FTS --
-    <%= value[:fouls] %> fouls -- <%= value[:steals] %> steals -- <%= value[:turnovers] %> turnovers</p>
+    <%= value[:fouls] %> fouls -- <%= value[:steals] %> steals -- <%= value[:turnovers] %> turnovers -- ingame? <%= value[:ingame] %></div>
 <% end %>
 
 
+
+<p><%= @marker[:description] %></p>
 
 
