@@ -1,19 +1,37 @@
-<h1>GamePage#game</h1>
-<p>Find me in app/views/game_page/game.html.erb</p>
-
-
 <a href=<%= "demo_start.html?status=" + @counter %>>Keep loading demo</a>
 
-<p><%= @players[:serge_ibaka][:plays] %></p>
+
+<div id="wrapper">
+
+<div id="game_flow">
+    
+</div>
+
+<div id = "game_info">
+    
+    
+</div>
+
+<div id="player_cards">
 
 <% @players.each_pair do |key, value| %>
-    <div class=<%= value[:ingame] %>><%= key.inspect.to_s %> has <%= value[:dboards] %> rebounds -- <%= value[:blocks] %> blocks -- <%= value[:missed2pt] %> missed 2s -- <%= value[:missed3pt] %> missed 3s
+    <div class=<%= value[:ingame] %>><%= key.inspect.to_s %> has <%= value[:rebounds] %> rebounds -- <%= value[:blocks] %> blocks -- <%= value[:missed2pt] %> missed 2s -- <%= value[:missed3pt] %> missed 3s
     -- <%= value[:made2pt] %> 2s -- <%= value[:made3pt] %> 3s -- <%= value[:assists] %> assists -- <%= value[:madeft] %> FTS -- <%= value[:missedft] %> missed FTS --
-    <%= value[:fouls] %> fouls -- <%= value[:steals] %> steals -- <%= value[:turnovers] %> turnovers -- ingame? <%= value[:ingame] %></div>
+    <%= value[:fouls] %> fouls -- <%= value[:steals] %> steals -- <%= value[:turnovers] %> turnovers -- double? <%= value[:awards][:old_fashioned] %></div>
 <% end %>
+
+</div>
+
+</div
+
 
 
 
 <p><%= @marker[:description] %></p>
 
+<p><%= @players[:damian_lillard][:awards][:sniper]  %></p>
+
+<p><%= @players[:wesley_matthews][:awards][:utility_man] %></p>
+
+<p> <%= @event_array %> </p>
 
