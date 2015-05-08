@@ -51,6 +51,7 @@ def runDemo
   def loadPlayIntoPlayerList(h, e, x)
     @players[h][:plays] << [e[:time_elapsed], x, e[:player_code], e[:description], e[:home_score], e[:visitor_score]]
   end
+  
 #-----------------------------------------------------------------------------------------------------------------------------------------------award checks  
   def checkAwardSniper(x)
     i = -1
@@ -467,6 +468,7 @@ def runDemo
     end
   end
   @counter = play_count.to_s
+  @game_flow_scope = 720
   render 'game_page/game'
 end
 

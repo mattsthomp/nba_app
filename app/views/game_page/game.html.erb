@@ -4,7 +4,19 @@
 <div id="wrapper">
 
 <div id="game_flow">
-    
+    <div class=":nicolas_batum">
+        <% i = 0 %>
+        <% margin_count = 0 %>
+        <% until i == @players[:nicolas_batum][:plays].length do %>
+            <% margin_left = ((1228/@game_flow_scope)*@players[:nicolas_batum][:plays][i][0] - 4 - margin_count) %>
+            <% if margin_left < 0 %>
+            <% margin_left = 0 %>
+            <% end %>
+            <div class="play" style="margin-left:<%= margin_left %>px;"><%= @players[:nicolas_batum][:plays][i][1] %></div>
+            <% i += 1 %>
+            <% margin_count = margin_count + 8 + margin_left %>
+        <% end %>
+    </div>
 </div>
 
 <div id = "game_info">
@@ -31,7 +43,7 @@
 
 <p><%= @players[:damian_lillard][:awards][:sniper]  %></p>
 
-<p><%= @players[:wesley_matthews][:awards][:utility_man] %></p>
+<p><%= @players[:wesley_matthews][:plays] %></p>
 
 <p> <%= @event_array %> </p>
 
