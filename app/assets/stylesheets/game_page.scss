@@ -22,20 +22,26 @@
   text-align: center;
 }
 
+.player_game_flow {
+  width: 100%;
+  height: 9px;
+  float: left;
+}
+
 #wrapper {
-  width: 1280px;
+  width: 1300px;
   height: 800px;
   border: 1px solid black;
 }
 
 #game_flow {
-  width: 1278px;
+  width: 1298px;
   height: 230px;
   border: 1px solid black;
 }
 
 #game_info {
-  width: 238px;
+  width: 280px;
   height: 564px;
   border: 1px solid black;
   float: left;
@@ -43,7 +49,7 @@
 
 
 #player_cards {
-  width: 1038px;
+  width: 1015px;
   float: left;
   border: 1px solid black;
 }
@@ -53,5 +59,12 @@
   height: 245px;
   border: 6px solid #000;
   float: left;
-  margin: 10px 10px 15px 10px;
+  margin: 10px 8px 15px 8px;
+}
+
+#event_list ul {
+  height: 300px;
+  overflow: scroll;
+  width: 200px;
+  font-size: 10px;
 }

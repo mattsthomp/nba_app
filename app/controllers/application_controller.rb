@@ -52,6 +52,14 @@ def runDemo
     @players[h][:plays] << [e[:time_elapsed], x, e[:player_code], e[:description], e[:home_score], e[:visitor_score]]
   end
   
+  def addScoreToGameFlow(t, h, v)
+    flow_point_time = ((t/@game_flow_scope.to_f)*1298).round.to_s
+    pre_score_flow_point = " L" + flow_point_time + " " + @game_flow_path[-3..-1].to_s
+    flow_point = " L" + flow_point_time + " " + (115 - (h-v)*@game_flow_vertical_scope).to_s
+    @game_flow_path << pre_score_flow_point
+    @game_flow_path << flow_point
+  end
+  
 #-----------------------------------------------------------------------------------------------------------------------------------------------award checks  
   def checkAwardSniper(x)
     i = -1
@@ -291,8 +299,8 @@ def runDemo
 # -----------------------------------------------------------------------------------------------------------------------------------------------end award checks  
   play_count = (params[:status].to_i) + 10
   
-  home_player_array = [:nicolas_batum, :lamarcus_aldridge, :wesley_matthews, :robin_lopez, :damian_lillard, :arron_afflalo,
-                  :steve_blake, :chris_kaman, :meyers_leonard, :dorell_wright, :alonzo_gee, :allen_crabbe, :cj_mccollum ]
+  home_player_array = [:meyers_leonard, :dorell_wright, :alonzo_gee, :allen_crabbe, :cj_mccollum, :nicolas_batum, :lamarcus_aldridge, 
+                       :wesley_matthews, :robin_lopez, :damian_lillard, :arron_afflalo, :steve_blake, :chris_kaman]
   
   visitor_player_array = [:russell_westbrook, :serge_ibaka, :kyle_singler, :nick_collison, :andre_roberson, :dion_waiters, 
                   :mitch_mcgary, :anthony_morrow, :dj_augustin, :perry_jones, :enes_kanter, :jeremy_lamb ]                
@@ -329,6 +337,9 @@ def runDemo
   
   @event_array = Event.where(game_id: '20150227/OKCPOR').first(play_count)
   @marker = @event_array.last
+  @game_flow_path = "M0 115"
+  @game_flow_vertical_scope = 8
+  @game_flow_scope = 1440
   @event_array.each do |e|   
     first_player = e[:player_code].to_sym
     if e[:event_type] == 2   # ----------------------------------------------------------------------------------missed shots and blocks
@@ -389,6 +400,7 @@ def runDemo
         @players[first_player][:made3pt] += 1
         @players[first_player][:points] += 3
         loadPlayIntoPlayerList(first_player, e, 15)
+        addScoreToGameFlow(e[:time_elapsed], e[:home_score], e[:visitor_score])
         if @players[first_player][:made3pt] > 2
           checkAwardSniper(first_player)
         end
@@ -399,6 +411,7 @@ def runDemo
         @players[first_player][:made2pt] += 1
         @players[first_player][:points] += 2
         loadPlayIntoPlayerList(first_player, e, 1)
+        addScoreToGameFlow(e[:time_elapsed], e[:home_score], e[:visitor_score])
         if @players[first_player][:points] > 9 && @players[first_player][:points] < 12
           checkAwardDouble(first_player)
         end
@@ -414,6 +427,7 @@ def runDemo
         @players[first_player][:madeft] += 1
         @players[first_player][:points] += 1
         loadPlayIntoPlayerList(first_player, e, 3)
+        addScoreToGameFlow(e[:time_elapsed], e[:home_score], e[:visitor_score])
         if @players[first_player][:points] == 10
           checkAwardDouble(first_player)
         end
@@ -468,7 +482,6 @@ def runDemo
     end
   end
   @counter = play_count.to_s
-  @game_flow_scope = 720
   render 'game_page/game'
 end
 

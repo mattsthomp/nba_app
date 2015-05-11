@@ -4,27 +4,27 @@
 <div id="wrapper">
 
 <div id="game_flow">
-   <svg height="230" width="1298">
-       <path stroke="red" stroke-width="1" fill="none" d="<%= @game_flow_path %>" />
-   </svg>
+    <% @players.each_pair do |key, value| %>
+    <div class="player_game_flow">
+        <% i = 0 %>
+        <% margin_count = 0 %>
+        <% pixel_ratio = (1228.0/@game_flow_scope).round(2) %>
+        <% until i == value[:plays].length do %>
+            <% margin_left = ((value[:plays][i][0] * (pixel_ratio)) - 5 - margin_count) %>
+            <% if margin_left < 0 %>
+            <% margin_left = 0 %>
+            <% end %>
+            <div class="play" style="margin-left:<%= margin_left %>px;"><%= value[:plays][i][1] %></div>
+            <% i += 1 %>
+            <% margin_count = margin_count + 10 + margin_left %>
+        <% end %>
+    </div>
+    <% end %>
 </div>
 
 <div id = "game_info">
-    <div id = "scoreboard">
-        <%= @event_array.last[:home_score] %>
-        <%= @event_array.last[:visitor_score] %>
-    </div>
-    <div id = "event_list">
-        <ul>
-            <% index_length = @event_array.length %>
-            <% until index_length == 0 do %>
-                <% index_length -= 1 %>
-                <li>
-                    <%= @event_array[index_length][:description] %>
-                </li>
-            <% end %>
-        </ul>
-    </div>
+    
+    
 </div>
 
 <div id="player_cards">
@@ -42,7 +42,7 @@
 
 
 
-<p><%= @game_flow_path %></p>
+<p><%= @marker[:description] %></p>
 
 <p><%= @players[:damian_lillard][:awards][:sniper]  %></p>
 
