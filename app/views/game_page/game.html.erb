@@ -37,16 +37,23 @@
 
 </div>
 
-</div
+<div id="slide_space">
+    <div id="focus_slider">
+        blah
+    </div>
+    <div id="player_focus">
+        <% @testnum = 0 %>
+        <% 24.times do %>
+            <div class="player_overlay"><%= @testnum %></div>
+            <% @testnum += 1 %>
+        <% end %>
+    </div>
+</div>
+
+</div>
 
 
 
 
-<p><%= @game_flow_path %></p>
 
-<p><%= @players[:damian_lillard][:awards][:sniper]  %></p>
-
-<p><%= @players[:wesley_matthews][:plays] %></p>
-
-<p> <%= @event_array %> </p>
 

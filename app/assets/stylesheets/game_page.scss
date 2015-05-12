@@ -29,9 +29,11 @@
 }
 
 #wrapper {
+  position: relative;
   width: 1300px;
   height: 800px;
   border: 1px solid black;
+  overflow: hidden;
 }
 
 #game_flow {
@@ -67,4 +69,23 @@
   overflow: scroll;
   width: 200px;
   font-size: 10px;
+}
+
+#slide_space {
+  position: absolute;
+  top: 0;
+  left: -31200px;
+  width: 63700px;
+  z-index: 5;
+}
+
+.player_overlay {
+  width: 1300px;
+  float: right;
+}
+
+#focus_slider {
+  float: right;
+  width: 3900px;
+  display: block;
 }
