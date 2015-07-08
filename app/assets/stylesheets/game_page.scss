@@ -2,14 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.out {
-  display: none;
-}
-
-.in {
-  display: block;
-}
-
 .play {
   width: 8px;
   height: 8px;
@@ -30,39 +22,85 @@
 
 #wrapper {
   position: relative;
-  width: 1300px;
-  height: 800px;
+  width: 1320px;
+  height: 820px;
   border: 1px solid black;
   overflow: hidden;
 }
 
 #game_flow {
-  width: 1298px;
+  width: 1318px;
   height: 230px;
   border: 1px solid black;
 }
 
 #game_info {
-  width: 280px;
-  height: 564px;
+  width: 284px;
+  height: 586px;
   border: 1px solid black;
   float: left;
 }
 
 
-#player_cards {
-  width: 1015px;
+#player_card_area {
+  width: 1032px;
+  height: 586px;
   float: left;
   border: 1px solid black;
 }
 
-#player_cards div {
-  width: 175px;
-  height: 245px;
-  border: 6px solid #000;
+
+/*******************player cards **************/
+
+
+.card {
+  width: 194px;
+  height: 278px;
   float: left;
-  margin: 10px 8px 15px 8px;
+  margin: 10px 0 0 10px;
+  background-color: black;
+  color: white;
 }
+
+.card_info {
+  width: 60%;
+  float: left;
+  height: 80%;
+}
+
+.row1 {
+  float: left;
+  width: 60%;
+}
+
+.row2 {
+  float: left;
+  width: 40%;
+}
+
+.card_footer {
+  width: 100%;
+  float: left;
+  height: 20%;
+}
+
+.card_photo {
+  width: 40%;
+  float: left;
+  height: 80%;
+}
+
+.heat_bar {
+  
+}
+
+
+
+
+
+/*******************end player cards **************/
+
+
 
 #event_list ul {
   height: 300px;
@@ -86,6 +124,6 @@
 
 #focus_slider {
   float: right;
-  width: 3900px;
+  width: 2600px;
   display: block;
 }

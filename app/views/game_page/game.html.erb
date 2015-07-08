@@ -27,12 +27,38 @@
     </div>
 </div>
 
-<div id="player_cards">
+<div id="player_card_area">
 
 <% @players.each_pair do |key, value| %>
-    <div class=<%= value[:ingame] %>><%= key.inspect.to_s %> has <%= value[:rebounds] %> rebounds -- <%= value[:blocks] %> blocks -- <%= value[:missed2pt] %> missed 2s -- <%= value[:missed3pt] %> missed 3s
-    -- <%= value[:made2pt] %> 2s -- <%= value[:made3pt] %> 3s -- <%= value[:assists] %> assists -- <%= value[:madeft] %> FTS -- <%= value[:missedft] %> missed FTS --
-    <%= value[:fouls] %> fouls -- <%= value[:steals] %> steals -- <%= value[:turnovers] %> turnovers -- double? <%= value[:awards][:old_fashioned] %></div>
+    <% if value[:ingame] == "in" %>
+    
+    <div class="card">
+        <div class="card_photo">
+            <%= value[:awards][:old_fashioned] %>
+        </div>
+        
+        <div class="card_info">
+            <div class="row1"><%= value[:made2pt] %>/<%= value[:made2pt] + value[:missed2pt] %></div>
+            <div class="row2"><%= value[:points] %></div>
+            <div class="row1"><%= value[:made3pt] %>/<%= value[:made3pt] + value[:missed3pt] %></div>
+            <div class="row2"><%= value[:rebounds] %></div>
+            <div class="row1"><%= value[:madeft] %>/<%= value[:madeft] + value[:missedft] %></div>
+            <div class="row2"><%= value[:assists] %></div>
+            <div class="row1"><%= value[:turnovers] %></div>
+            <div class="row2"><%= value[:blocks] %></div>
+            <div class="row1"><%= value[:fouls] %></div>
+            <div class="row2"><%= value[:steals] %></div>
+        </div>
+        
+        <div class="card_footer">
+            <%= key.inspect.to_s[1..-1].gsub(/_/, " ") %>
+        </div>
+        
+        
+        
+    </div>
+    
+    <% end %>
 <% end %>
 
 </div>
